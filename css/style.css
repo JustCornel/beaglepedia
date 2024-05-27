@@ -8,16 +8,24 @@ body {
 }
 
 .container {
-    width: 1863px;
+    width: 100%;
+    max-width: 1900px;
     height: 180px;
     position: relative;
     margin: 5px auto;
 }
 
-.container img {
+
+.imgCss{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* .container img {
     width: 1863px;
     height: 180px; 
-}
+} */
 
 .titlu {
     
@@ -48,4 +56,24 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.divCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.tableContent{
+    max-width: 1863px;
+}
+
+.divAlignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
